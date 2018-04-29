@@ -1,0 +1,17 @@
+$bg_color: radial-gradient(circle, #8c37e0 0%, #402060 100%);
+
+body {
+    background-image: $bg_color;
+    color: #fff;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
